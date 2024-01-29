@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
       home: MultiProvider(
         providers: [
           ChangeNotifierProvider(create: (_) => LoginViewModel()),
-          // Otros providers según sea necesario
+
         ],
-        child: SplashScreen(), // Puedes reemplazar HomeScreen con tu widget principal
+        child: SplashScreen(),
       ),
       debugShowCheckedModeBanner: false,
     );
